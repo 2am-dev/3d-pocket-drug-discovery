@@ -1,0 +1,6 @@
+paths:
+  raw: data/raw
+  processed: data/processed
+  results: results
+
+seed: 42

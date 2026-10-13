@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Environments
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and outputs (keep folder skeleton only)
+data/raw/*
+data/processed/*
+results/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!results/.gitkeep
+
+# Model weights and large artifacts
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.npz
+wandb/
+lightning_logs/
+
+# Editors / tools
+.vscode/
+.idea/
+.DS_Store
+.claude/settings.local.json

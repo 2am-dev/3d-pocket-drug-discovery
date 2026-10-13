@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "3D Pocket-Based Drug Discovery"
+version: 0.1.0
+license: MIT
+authors:
+  - name: Shaurya
+    email: shaurya@nii.ac.in
+    affiliation: "National Institute of Immunology"

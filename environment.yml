@@ -1,0 +1,11 @@
+name: pocket3d
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - biopython
+  - rdkit
+  - pyyaml
+  - pip
